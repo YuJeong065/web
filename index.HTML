@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POCARL</title>
+    <link rel="stylesheet"href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<style>
+.button{display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition:
+     0.3s ease;}
+     .button:hover{background-image: blue;
+        border: 1px solid white; transition: 0.5s
+         ;filter: drop-shadow(0px 0px 10px white);}
+</style>
+<body>
+    <div class="bg00 bg01"><div class="cont00 cont01" data-aos="fade-up"></div></div>
+    <div class="bg00 bg02"><div class="cont00 cont02" data-aos="fade-up"></div></div>
+    <div class="bg00 bg03"><div class="cont00 cont03" data-aos="flip-left"></div></div>
+    
+    <div class="bg00 bg04">
+        <video class="cont04" src="POCARI/video.mp4" controls></video>
+        <div class="cont00 cont04" data-aos="flip left"></div>
+    </div>
+    
+    <div class="button"></div>
+
+    </div>
+</body>
+<script>
+    AOS.init();
+</script>
+</html>

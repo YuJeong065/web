@@ -1,0 +1,35 @@
+*{margin: 0;padding: 0;}
+bg00{
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+background-attachment: fixed;
+}
+
+.bg01{background-image: url(POCARI/main1.png);
+width: 1920px;height: 845px;margin: 0 auto;}
+.bg02{background-image: url(POCARI/main2.png);
+    width: 1920px;height: 850px;margin: 0 auto;}
+.bg03{background-image: url(POCARI/main3.png);
+     width: 1920px;height: 845px;margin: 0 auto;}
+.bg04{background-image: url(POCARI/main4.png);
+width: 1920px;height: 860px;margin: 0 auto;}
+
+
+.cont00{ background-repeat: no-repeat;display: flex;justify-content: center;
+    background-attachment: fixed;}
+
+.cont01{width: 1200px;height: 1100px;background-image: url(POCARI/main1-2.png);
+    position: relative;left: 13%;transform: translateX(30%);top:-3%;}
+.cont02{width: 808px;height: 809px;background-image: url(POCARI/main2-2.png);
+    position: relative;left: 20%;transform: translateX(-50%);top:22%;}
+.cont03{width: 1000px;height: 760px;background-image: url(POCARI/main3-3.png);
+    position: relative;left: 2%;transform: translateX(-50%);top:15%;}
+.cont04{
+ width: 1200px;height: 550px;position:relative;left: 47%;transform:
+ translateX(-50%);top:25%;}
+ 
+ 
